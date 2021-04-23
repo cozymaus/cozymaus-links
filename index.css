@@ -298,7 +298,6 @@ div.introbuttons {
 }
 
 div.project {
-  float:left;
   margin-top:50px;
   width:750px;
   height: 404px;
@@ -406,6 +405,7 @@ div.contact {
 
   div.project {
     height:auto;
+    float:left;
   }
 
   a.button.Two {
