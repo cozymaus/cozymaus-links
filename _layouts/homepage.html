@@ -17,47 +17,100 @@
     <meta name="og:image" content="{{ site.logo }}">
     <meta name="description" content="{{ site.description }}">
     <meta name="title" content="{{ site.title }}">
-    <meta name="keywords" content="web developer, web designer, front end developer, cozymaus, liz berberena, liz l berberena, liz lorena berberena">
+    <meta name="keywords" content="web developer, web designer, front end developer, liz berberena, liz l. berberena, liz lorena berberena">
     <meta name="author" content="{{ site.author_name }}">
     <meta name="twitter" content="{{ site.username }}">
     <meta name="github" content="{{ site.username }}">
-    <meta http-equiv = "refresh" content = "1; url = https://lizberberena.com/2021" />
-  
-    <title>{{ site.title }} – {{ page.title }}</title>
+
+    <title>{{ site.title }}</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
    
-    <link href="{{ site.url }}/index.css" rel="stylesheet">
-    <link href="{{ site.url }}/cssreset.css" rel="stylesheet">
+    <link href="/index.css" rel="stylesheet">
+    <link href="/cssreset.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon }}">
 
-    </head>
+    <script src="https://kit.fontawesome.com/56182aba27.js" crossorigin="anonymous"></script>
+</head>
 <body>
 
 
-<div id="top">
+<div class="canvas">
 
-<div id="status">
-            {% include logo.html %}
+<div id="about"></div>
+
+
+<div class="navigation">
+    <div class="logo"><h1>Liz Berberena<span>&nbsp;&nbsp;/&nbsp;&nbsp;Front-End&nbsp;Web&nbsp;Developer</span></h1></div>
+    <div class="pages">
+        <a href="#about" class="active">About Me</a>
+        <a href="/resume-liz-berberena.pdf">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="mailto:hi@lizberberena.com">Contact</a>
     </div>
-
-    <div id="about">
-        <div id="title"><h1>Liz Lorena Berberena</h1></div>
-        
-        <div class="stuff">
-      
-        {{content}}
-                    
-        {% include pages.html %}
-
-      </div>
-    </div>
-
 </div>
-  
-    {% include links.html %}
-    {% include featured.html %}
-    {% include footer.html %}
+
+
+<div class="about">
+<div class="behindcard">
+    <div class="card">
+        <img src="https://lizberberena.com/img/liz-pfp.jpg">
+        <h1>
+            Liz Berberena
+        </h1>
+        <div class="divider"></div>
+        <span>Web&nbsp;Developer, <br>Polyglot, Restorer</span>
+        <div class="socials">
+            <a href="https://linkedin.com/in/lizberberena" target="_blank"><i class="fab fa-linkedin-in"></i></a> <a href="https://github.com/lizberberena" target="_blank"><i class="fab fa-github"></i></a> <a href="https://steamcommunity.com/id/cozymaus" target="_blank"><i class="fab fa-steam"></i></a> <a href="https://myanimelist.net/profile/cozymaus" target="_blank"><i class="fas fa-frog"></i></a>
+        </div>
+    </div>
+</div>
+<div class="business">
+    <div class="businesspiece">
+        <p><span class="greeting">Hello!</span>
+        <span class="intro">Here's who I am &amp; what I do</span></p>
+        <div class="introbuttons"><a href="/resume-liz-berberena.pdf" class="button One">Resume</a> <a href="#projects" class="button Two">Projects</a></div>
+        <p>I am a female professional front-end web developer based in New Jersey. I've been coding since 2013 and graduated May 2019 from Rutgers University with a B.A. in Information Technology and Informatics. I currently work full-time as a Web Producer for The Lynx Group.</p>
+    </div>
+</div>
+</div>
+
+
+<div class="projects" id="projects">  
+    <h2>Projects</h2>
+    <p class="intro">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+
+    
+{% for post in site.posts %}
+    
+    <div class="project">
+     <div class="projectDetails">
+     <div class="name">
+     <h3>{{ post.title }}</h3>
+     <p>{{ post.role }}</p>
+     </div>
+     <p>{{ post.excerpt }}</p>
+     </div>
+     <div class="projectImage" style="background-image:url('https://lizberberena.com/img/{{ post.img }}');"></div>
+    </div>    
+
+
+        {% endfor %} 
+    
+</div>
+
+<!--
+<div id="contact"></div>
+<div class="contact">
+
+<p>
+© 2021 by Liz Berberena.<br>
+Proudly created from scratch.
+</p>
+
+</div>-->
+</div>
+
 
 </body>
 </html>
