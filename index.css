@@ -83,7 +83,7 @@ a.button {
    transition: all .3s;
 }
 
-a.button:visited, a:visited, h3 a:visited, a.button:hover, a:hover, h3 a:hover, a.button:active, a:active, h3 a:active {
+a.button:hover, a:hover, h3 a:hover, a.button:active, a:active, h3 a:active {
    cursor: pointer;
    text-decoration: none!important;
 }
@@ -112,7 +112,7 @@ a.button.Two:hover {
    color:var(--white-color);
 }
 
-div.name a:visited, div.name a:hover, div.name a:active {
+div.name a:hover, div.name a:active {
 color: var(--text-color)!important;
 }
 
