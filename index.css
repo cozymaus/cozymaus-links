@@ -43,14 +43,6 @@ h2 {
    margin-right: auto!important;
 }
 
-div.name a {
-  color:var(--accent-color);
-  font-weight: bold!important;
-  font-size: 20px!important;
-  padding-bottom:5px!important;
-  transition: all .3s;
-}
-
 .navigation h1::before, .projects h2::before {
     content: ' ';
     display: block;
@@ -110,6 +102,14 @@ a.button.Two:hover {
    background-color: var(--accent-color);
    border: 1px solid var(--accent-color);
    color:var(--white-color);
+}
+
+div.name a {
+  color:var(--accent-color)!important;
+  font-weight: bold!important;
+  font-size: 20px!important;
+  padding-bottom:5px!important;
+  transition: all .3s;
 }
 
 div.name a:hover, div.name a:active {
