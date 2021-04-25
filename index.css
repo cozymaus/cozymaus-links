@@ -51,10 +51,6 @@ h3, h3 a {
   transition: all .3s;
 }
 
-h3 a:visited, h3 a:hover, h3 a:active {
-color: var(--text-color);
-}
-
 .navigation h1::before, .projects h2::before {
     content: ' ';
     display: block;
@@ -114,6 +110,10 @@ a.button.Two:hover {
    background-color: var(--accent-color);
    border: 1px solid var(--accent-color);
    color:var(--white-color);
+}
+
+h3 a:visited, h3 a:hover, h3 a:active {
+color: var(--text-color)!important;
 }
 
 .card {
