@@ -83,7 +83,7 @@ a.button {
    transition: all .3s;
 }
 
-a.button:hover, a:hover, h3 a:hover, a.button:active, a:active, h3 a:active {
+a.button:hover, a:hover, a.button:active, a:active, a.button:focus, a:focus {
    cursor: pointer;
    text-decoration: none!important;
 }
