@@ -1,3 +1,5 @@
+
+
 ::-moz-selection {
 	/* Code for Firefox */
 	color: var(--accent-color);
@@ -228,7 +230,8 @@ div.name a:active {
 	float: right;
 }
 
-.pages a, .pages #theme-toggle {
+.pages a,
+.pages #theme-toggle {
 	text-transform: uppercase;
 	color: var(--text-color)!important;
 	line-height: 35px!important;
@@ -368,13 +371,16 @@ div.contact {
 	}
 }
 
-@media (max-width: 1055px) { 
+@media (max-width: 1055px) {
 	.navigation h1 {
 		padding-bottom: 10px!important;
 	}
 }
 
-@media (max-width: 860px) {
+@media (max-width: 890px) {
+	div.business {
+		padding-left: 80px;
+	}
 	.card {
 		margin-left: 0%;
 	}
@@ -384,13 +390,11 @@ div.contact {
 	.card span {
 		font-size: 15px!important;
 	}
-
 	.pages a {
 		width: 50%;
 		float: left;
 		font-size: 15px!important;
 	}
-	
 	.navigation h1 span {
 		font-size: 15px!important;
 	}
@@ -448,7 +452,8 @@ div.contact {
 	}
 }
 
-html, html[data-theme="light"] {
+html,
+html[data-theme="light"] {
 	--text-color: #000000;
 	--accent-color: #4C785D;
 	--card-color: #F4ECE6;
@@ -467,7 +472,8 @@ html[data-theme="dark"] {
 }
 
 @media (prefers-color-scheme: dark) {
-	html, html[data-theme="dark"] {
+	html,
+	html[data-theme="dark"] {
 		--text-color: lavender;
 		--accent-color: violet;
 		--card-color: #000000;
@@ -475,7 +481,7 @@ html[data-theme="dark"] {
 		--bg-color: #1a1646;
 		--shadows: rgba(1, 0, 19, 0.47);
 	}
-	html[data-theme="light"] { 
+	html[data-theme="light"] {
 		--text-color: #000000;
 		--accent-color: #4C785D;
 		--card-color: #F4ECE6;
@@ -484,6 +490,4 @@ html[data-theme="dark"] {
 		--shadows: rgba(138, 131, 124, 0.23);
 	}
 }
-
-
 
