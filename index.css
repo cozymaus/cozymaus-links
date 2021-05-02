@@ -383,7 +383,7 @@ div.contact {
 		padding-left: 80px;
 	}
 	div.businesspiece {
-				width:300px;
+	width:300px;
 	}
 	.card {
 		margin-left: 0%;
@@ -398,6 +398,9 @@ div.contact {
 
 	div.project {
 		padding: 0px!important;
+	}
+	p.intro {
+	width:100%!important;
 	}
 	div.projectDetails {
 		width:100%;
