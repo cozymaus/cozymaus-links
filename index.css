@@ -386,6 +386,26 @@ div.contact {
 	}
 }
 
+@media (max-width: 800px) {
+	div.project {
+		padding: 0px!important;
+	}
+	div.projectDetails {
+		width:100%;
+		padding: 30px;
+		height: auto!important;
+	}
+	div.project,
+	div.projectImage {
+		width:100%;
+		height: auto;
+	}
+	div.projectImage {
+		height: 200px;
+	}
+}
+
+
 @media (max-width: 630px) {
 	.card span {
 		font-size: 15px!important;
