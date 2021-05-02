@@ -339,6 +339,17 @@ div.contact {
   background-color: var(--white-color);
 }
 
+div.mobile-navigation {
+background-color:var(--bg-color);
+   height:20px;
+   width:100%;
+   text-align:center;
+   margin-left:auto; 
+   margin-right:auto;
+   margin-top:160px;
+   display:none;
+}
+
 
 
 @media (max-width: 1700px) {
@@ -360,6 +371,9 @@ div.contact {
 }
 
 @media (max-width: 600px) {
+   div.mobile-navigation {
+      display:block;
+   }
    
    a.toggle-theme {
    display:none!important;
