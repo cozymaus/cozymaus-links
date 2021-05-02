@@ -356,15 +356,6 @@ div.contact {
 	background-color: var(--white-color);
 }
 
-div.mobile-navigation {
-	background-color: var(--bg-color);
-	width: 100%;
-	text-align: center;
-	/*margin-top:160px;*/
-	padding: 10px;
-	display: none;
-}
-
 @media (max-width: 1700px) {
 	.card {
 		margin-left: 44%;
@@ -387,12 +378,7 @@ div.mobile-navigation {
 	.card span {
 		font-size: 15px!important;
 	}
-	div.mobile-navigation {
-		display: block;
-	}
-	#toggle-theme.desktop {
-		display: none!important;
-	}
+
 	.pages a {
 		width: 50%;
 		float: left;
