@@ -390,7 +390,7 @@ div.mobile-navigation {
 	div.mobile-navigation {
 		display: block;
 	}
-	a.toggle-theme.desktop {
+	a#toggle-theme.desktop {
 		display: none!important;
 	}
 	.pages a {
