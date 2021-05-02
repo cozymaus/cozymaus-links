@@ -402,6 +402,7 @@ div.contact {
 	}
 	div.projectImage {
 		height: 200px;
+		margin-bottom:50px;
 	}
 }
 
@@ -445,6 +446,7 @@ div.contact {
 	div.projectDetails {
 		padding: 30px;
 		height: auto!important;
+		margin-bottom:0px;
 	}
 	div.project,
 	div.projectImage {
