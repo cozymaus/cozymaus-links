@@ -4,6 +4,7 @@ html {
 	--card-color: #F4ECE6;
 	--white-color: #FFFFFF;
 	--bg-color: #E6DACE;
+	--shadows: rgba(138, 131, 124, 0.23);
 }
 
 ::-moz-selection {
@@ -144,7 +145,7 @@ div.name a:active {
 
 .card {
 	background-color: var(--card-color);
-	box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
+	box-shadow: -11.31px 11.31px 17px 0px var(--shadows);
 	width: 375px;
 	padding: 50px 0 0 0;
 	border: none;
@@ -328,7 +329,7 @@ div.project {
 	height: 404px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: -11.31px 11.31px 17px 0px rgba(138, 131, 124, 0.23);
+	box-shadow: -11.31px 11.31px 17px 0px var(--shadows);
 }
 
 div.projectDetails {
@@ -473,6 +474,7 @@ div.mobile-navigation {
 		--card-color: #000000;
 		--white-color: #000031;
 		--bg-color: #1a1646;
+		--shadows: rgba(138, 131, 124, 0.23);
 	}
 }
 
