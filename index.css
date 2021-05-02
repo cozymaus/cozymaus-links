@@ -368,6 +368,12 @@ div.contact {
 	}
 }
 
+@media (max-width: 1055px) { 
+	.navigation h1 {
+		padding-bottom: 10px!important;
+	}
+}
+
 @media (max-width: 860px) {
 	.card {
 		margin-left: 0%;
@@ -384,9 +390,7 @@ div.contact {
 		float: left;
 		font-size: 15px!important;
 	}
-	.navigation h1 {
-		padding-bottom: 10px!important;
-	}
+	
 	.navigation h1 span {
 		font-size: 15px!important;
 	}
