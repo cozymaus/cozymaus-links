@@ -54,6 +54,7 @@ h2 {
 	margin-right: auto!important;
 }
 
+/*
 .navigation h1::before,
 .projects h2::before {
 	content: ' ';
@@ -64,6 +65,13 @@ h2 {
 	margin-top: 5px;
 	margin-left: -25px;
 	float: left;
+}
+*/
+
+.navigation h1,
+.projects h2  {
+border-left: 10px solid var(--accent-color);
+padding-left: 20px;
 }
 
 p {
