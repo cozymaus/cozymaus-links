@@ -455,8 +455,12 @@ div.contact {
 	div.project,
 	div.projectImage {
 		width: 100%;
+	}
+	
+	div.project {	
 		height: auto;
 	}
+	
 	div.projectImage {
 		margin-bottom: 50px;
 		box-shadow: -11.31px 11.31px 17px 0px var(--shadows);
@@ -504,10 +508,6 @@ div.contact {
 		padding: 30px;
 		height: auto!important;
 		margin-bottom: 0px;
-	}
-	div.project,
-	div.projectImage {
-		height: auto;
 	}
 	div.projectImage {
 		margin-bottom: 0px;
