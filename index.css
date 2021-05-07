@@ -370,6 +370,7 @@ div.projectImage {
 	float: left;
 	background-position: center;
 	background-size:364px;
+	background-repeat:no-repeat;
 	transition: all .3s;
 }
 
@@ -469,7 +470,6 @@ div.contact {
 	div.projectImage {
 		margin-bottom: 50px;
 		box-shadow: -11.31px 11.31px 17px 0px var(--shadows);
-		background-repeat:repeat-y;
 	}
 }
 
@@ -549,7 +549,6 @@ div.contact {
 
 @media (max-width: 364px) {
 	div.projectImage {
-		background-repeat:repeat;
 	}
 }
 
