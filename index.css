@@ -369,7 +369,12 @@ div.projectImage {
 	width: 50%;
 	float: left;
 	background-position: center;
-	background-size:360px;
+	background-size:364px;
+	transition: all .3s;
+}
+
+div.projectImage:hover {
+	background-size:415px;
 }
 
 
