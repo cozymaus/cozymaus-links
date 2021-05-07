@@ -490,6 +490,15 @@ div.contact {
 	.projects {
 		padding: 100px 20px!important;
 	}
+	
+	.business {
+	padding-bottom:80px!important;
+	}
+	
+	.projects {
+	padding-top:80px!important;
+	}
+	
 	div.project {
 		height: auto;
 		float: left;
