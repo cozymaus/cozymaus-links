@@ -549,6 +549,7 @@ div.contact {
 
 @media (max-width: 364px) {
 	div.projectImage {
+		background-size:326px;
 	}
 }
 
