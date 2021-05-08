@@ -489,9 +489,10 @@ div.contact {
 		font-size: 15px!important;
 	}
 	
-	.nav-toggle {
+	.nav-toggle, .nav-mobile-header {
 	display:block!important;
 	}
+	
 	.pages {
 		position: fixed;
 		overflow: hidden;
