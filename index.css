@@ -395,8 +395,10 @@ div.contact {
 }
 
 .nav-toggle {
-	color: var(--text-color);
-	cursor: pointer;
+	color: var(--text-color)!important;
+	cursor: pointer!important;
+	font-size:17px!important;
+	float:right!important;
 	transition: all .3s;
 }
 
@@ -406,8 +408,6 @@ div.contact {
 }
 
 .nav-toggle, .nav-mobile-header {
-	font-size:17px;
-	float:right;
 	display: none!important;
 }
 
