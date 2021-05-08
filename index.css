@@ -75,8 +75,6 @@ h2 {
 	padding-left: 20px;
 }
 
-
-
 p {
 	font-size: 17px!important;
 	line-height: 140%!important;
@@ -263,7 +261,7 @@ div.name a:active {
 }
 
 .contact a {
-	padding-right:0px;
+	padding-right: 0px;
 }
 
 .mobile-navigation #theme-toggle {
@@ -367,13 +365,13 @@ div.projectImage {
 	width: 50%;
 	float: left;
 	background-position: center;
-	background-size:364px;
-	background-repeat:no-repeat;
+	background-size: 364px;
+	background-repeat: no-repeat;
 	transition: all .3s;
 }
 
 div.projectImage:hover {
-	background-size:415px;
+	background-size: 415px;
 }
 
 
@@ -391,9 +389,9 @@ div.contact {
 	width: 100% !important;
 	padding: 20px 40px;
 	background-color: var(--white-color);
-	text-align:center;
-	float:left;
-	display:none;
+	text-align: center;
+	float: left;
+	display: none;
 }
 
 @media (max-width: 1700px) {
@@ -429,20 +427,16 @@ div.contact {
 }
 
 @media (max-width: 800px) {
-	
 	a.desktop-about-link {
-	display:none!important;
+		display: none!important;
 	}
-	
 	a.mobile-about-link {
-	display:inline-block!important;
+		display: inline-block!important;
 	}
-	
 	div.contact {
-	margin-top:50px;
-	display:block;
+		margin-top: 50px;
+		display: block;
 	}
-	
 	.card {
 		width: 300px;
 	}
@@ -461,11 +455,9 @@ div.contact {
 	div.projectImage {
 		width: 100%;
 	}
-	
-	div.project {	
+	div.project {
 		height: auto;
 	}
-	
 	div.projectImage {
 		margin-bottom: 50px;
 		box-shadow: -11.31px 11.31px 17px 0px var(--shadows);
@@ -473,7 +465,6 @@ div.contact {
 }
 
 @media (max-width: 650px) {
-
 	.card span {
 		font-size: 15px!important;
 	}
@@ -482,37 +473,34 @@ div.contact {
 		float: left;
 		font-size: 15px!important;
 	}
-	
 	.pages {
-position: fixed;
-overflow: hidden;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background: var(--white-color);
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
--ms-flex-direction: column;
-flex-direction: column;
-font-size: 1.75rem;
-z-index: 100;
--webkit-transform: translate3D(100%, 0, 0);
-transform: translate3D(100%, 0, 0);
--webkit-transition: -webkit-transform 200ms linear;
-transition: -webkit-transform 200ms linear;
-transition: transform 200ms linear;
-transition: transform 200ms linear, -webkit-transform 200ms linear;
-will-change: transform;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: var(--white-color);
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		font-size: 1.75rem;
+		z-index: 100;
+		-webkit-transform: translate3D(100%, 0, 0);
+		transform: translate3D(100%, 0, 0);
+		-webkit-transition: -webkit-transform 200ms linear;
+		transition: -webkit-transform 200ms linear;
+		transition: transform 200ms linear;
+		transition: transform 200ms linear, -webkit-transform 200ms linear;
+		will-change: transform;
 	}
-	
 	.pages.open {
-	transform: translate3D(0, 0, 0);
+		transform: translate3D(0, 0, 0);
 	}
-	
 	.navigation h1 span {
 		font-size: 15px!important;
 	}
@@ -559,15 +547,12 @@ will-change: transform;
 	.projects {
 		padding: 100px 20px!important;
 	}
-	
 	.business {
-	padding-bottom:80px!important;
+		padding-bottom: 80px!important;
 	}
-	
 	.projects {
-	padding-top:80px!important;
+		padding-top: 80px!important;
 	}
-	
 	div.project {
 		height: auto;
 		float: left;
@@ -579,7 +564,7 @@ will-change: transform;
 
 @media (max-width: 364px) {
 	div.projectImage {
-		background-size:326px;
+		background-size: 326px;
 	}
 }
 
