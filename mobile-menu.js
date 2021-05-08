@@ -1,7 +1,7 @@
 var html=document.querySelector("html");
 var toggleOpen=document.getElementById('toggle-open');
 var toggleClose=document.getElementById('toggle-close');
-var navMenu=document.getElementsByClassName('nav-menu')[0];
+var navMenu=document.getElementsByClassName('pages')[0];
 
 
 html.addEventListener('click',function(){
