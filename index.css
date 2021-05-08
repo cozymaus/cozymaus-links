@@ -527,6 +527,10 @@ right: 30px;
 	.pages.open {
 		transform: translate3D(0, 0, 0);
 	}
+	
+	.pages a {
+	margin-left:20px!important;
+	}
 	.navigation h1 span {
 		font-size: 15px!important;
 	}
