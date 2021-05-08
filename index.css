@@ -394,6 +394,10 @@ div.contact {
 	display: none;
 }
 
+.nav-toggle, .nav-mobile-header {
+	display: none;
+}
+
 @media (max-width: 1700px) {
 	.card {
 		margin-left: 44%;
