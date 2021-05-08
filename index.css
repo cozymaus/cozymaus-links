@@ -406,6 +406,8 @@ div.contact {
 }
 
 .nav-toggle, .nav-mobile-header {
+	font-size:17px;
+	float:right;
 	display: none!important;
 }
 
