@@ -481,6 +481,7 @@ div.contact {
 		bottom: 0;
 		right: 0;
 		background: var(--white-color);
+		padding:20px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
