@@ -485,6 +485,10 @@ div.contact {
 }
 
 @media (max-width: 650px) {
+	body {
+	margin-top:65px!important;
+	}
+	
 	.card span {
 		font-size: 15px!important;
 	}
@@ -593,6 +597,9 @@ div.contact {
 }
 
 @media (max-width: 395px) {
+	body {
+	margin-top:90px!important;
+	}
 	span.slash {
 		display: none;
 	}
