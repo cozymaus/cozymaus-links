@@ -414,6 +414,17 @@ div.contact {
 	display: none!important;
 }
 
+.mobile {
+	text-align:center;
+	width:100%;
+        padding:10px 0px;
+	display:none;
+	color:var(--text-color) !important;
+	line-height: 35px !important;
+	font-size: 17px !important;
+	transition: all .3s;
+}
+
 @media (max-width: 1700px) {
 	.card {
 		margin-left: 44%;
@@ -485,6 +496,11 @@ div.contact {
 }
 
 @media (max-width: 650px) {
+	
+	.mobile {
+	display:block;
+	}
+	
 	body {
 	margin-top:65px!important;
 	}
